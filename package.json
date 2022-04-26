@@ -1,0 +1,7 @@
+{
+  "name": "node-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "LuizSouz404 <luiz.souz404@gmail.com>",
+  "license": "MIT"
+}
