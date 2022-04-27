@@ -11,8 +11,11 @@ export default {
   roots: [
     '<rootDir>',
   ],
-  testEnvironment: 'est-environment-node',
+  testMatch: [
+    '**/*.spec.ts',
+  ],
+  preset: 'ts-jest',
   transform: {
-    '.+\\.ts$': 'ts-jest',
+    "\\.[jt]sx?$": "babel-jest",
   },
 };
